@@ -1,8 +1,8 @@
 <?php
-// Edit By Ahmad Hani Version 2 
+// Edit By Ahmad Hani Version 3
 # Connect To the DataBase
 
-$connect = mysqli_connect("localhost","root","root","blog");
+$connect = mysqli_connect("localhost","root","root","blogg");
 
 # VAR
 
