@@ -1,7 +1,8 @@
 <?php
+// Edit By Ahmad Hani Version 2 
 # Connect To the DataBase
 
-$connect = mysqli_connect("localhost","root","root","blogger");
+$connect = mysqli_connect("localhost","root","root","blog");
 
 # VAR
 
@@ -19,6 +20,6 @@ $search_db = mysqli_query($connect,"SELECT * FROM users WHERE email LIKE '%$txt_
 
 while($fetch_search_db = mysqli_fetch_assoc($search_db)) {
 	
-echo 'email : '.$fetch_search_db['email'];	
+echo 'email:'.$fetch_search_db['email'];	
 }
 ?>
