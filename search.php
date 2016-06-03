@@ -1,8 +1,8 @@
 <?php
-// Edit By Ahmad Hani Version 55555
+// Edit By Ahmad Hani Version 8
 # Connect To the DataBase
 
-$connect = mysqli_connect("localhost","root","root","blogsasg");
+$connect = mysqli_connect("localhost","root","root","blog");
 
 # VAR
 
@@ -13,7 +13,7 @@ $txt_search = htmlspecialchars($_POST['text_search']);
 
 $search_db = mysqli_query($connect,"SELECT * FROM users WHERE email LIKE '%$txt_search%'"); 
 
-// % = search 0,9 and a,z
+// % = search 0,9 and a,z11
 
 # For Loop all the DataBase
 
