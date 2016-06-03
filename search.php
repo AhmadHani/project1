@@ -1,5 +1,5 @@
 <?php
-// Edit By Ahmad Hani Version 8
+// Edit By Ahmad Hani Version 9
 # Connect To the DataBase
 
 $connect = mysqli_connect("localhost","root","root","blog");
